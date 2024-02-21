@@ -10,14 +10,18 @@ int ft_isalpha(int c) {
 }
 int main()
 {
-    char entrada; //declaracion de variables
+
+    //Declaracion de variables
+    char entrada;
     int resultado;
     int resultado2;
 
+    //Asignacion de valores a variables
     entrada = 'j';
     resultado = ft_isalpha (entrada);
     resultado2 = isalpha (entrada);
 
+    //Ejecucion del programa
     printf("resultado mio %d\n", resultado);
     printf("resultado original %d\n", resultado2);
     return 0;
