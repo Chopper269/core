@@ -8,6 +8,7 @@ int ft_isdigit(int c) {
         return 0; // El caracter no es un numero
     }
 }
+// Desarrollo del main
 int main ()
 {
 
