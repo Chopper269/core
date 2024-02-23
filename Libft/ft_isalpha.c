@@ -1,3 +1,5 @@
+
+
 //Inclusion de headers
 #include <ctype.h>
 #include <stdio.h>
