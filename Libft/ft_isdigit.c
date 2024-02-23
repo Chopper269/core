@@ -9,17 +9,18 @@ int ft_isdigit(int c) {
     }
 }
 // Desarrollo del main
-int main ()
+int main () // Declaracion del main. Es un int porque retorna un 0 al final y es VOID porque no tiene argumentos de entrada
 {
 
-    int entrada;
-    int resultado;
-    int resultado2;
+    int entrada; // Define que la variable de entrada es un numero entero int
+    int resultado; // Define que la variable resultado es un numero entero int
+    int resultado2; // Define que la variable resultado es un numero entero int
 
-    entrada = 55;
-    resultado = ft_isdigit (entrada);
-    resultado2 = isdigit (entrada);
+    entrada = 55; //Definimos un valor y lo ponemos aqui
+    resultado = ft_isdigit (entrada); //asigna a resultado el valor de ft_isdigit segun la entrada que lea
+    resultado2 = isdigit (entrada); //asigna a resultado el valor de isdigit segun la entrada que lea
 
-    printf("resultado ft: %d\n", resultado);
-    printf("resultado original %d\n", resultado2);
+    printf("resultado ft: %d\n", resultado); //muestra por pantalla el resultado de ft
+    printf("resultado original %d\n", resultado2); //muestra por pantalla el resultado segun isdigit original
+    return 0; //fin del programa
 }
