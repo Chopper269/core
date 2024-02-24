@@ -6,9 +6,11 @@
 /*   By: ruben <ruben@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/23 21:11:21 by ruben             #+#    #+#             */
-/*   Updated: 2024/02/23 21:18:55 by ruben            ###   ########.fr       */
+/*   Updated: 2024/02/24 19:58:10 by ruben            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//Esta funcion comprueba que el valor de entrada es alfabetico o no
 
 //Inclusion de headers
 #include <ctype.h>
