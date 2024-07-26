@@ -35,7 +35,7 @@ int main () // Declaracion del main. Es un int porque retorna un 0 al final y es
 
     entrada = 55; //Definimos un valor y lo ponemos aqui
     resultado = ft_isdigit (entrada); //asigna a resultado el valor de ft_isdigit segun la entrada que lea
-    resultado2 = isdigit (entrada); //asigna a resultado el valor de isdigit segun la entrada que lea
+    resultado2 = isdigit (entrada); //asigna a resultado el valor de isdigit segun la entrada que lea XDDDDD
 
     printf("resultado ft: %d\n", resultado); //muestra por pantalla el resultado de ft
     printf("resultado original %d\n", resultado2); //muestra por pantalla el resultado segun isdigit original
