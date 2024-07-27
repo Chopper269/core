@@ -18,7 +18,7 @@
 
 //Desarrollo de la funcion
 int ft_isalpha(int c) { //la funcion va a operar con enteros, y se define que la variable c es entero
-    if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) { //Si el caracter es menor o igual a 64 y mayor o igual a 91, o es menor o igual a 97 y mayor o igual a 122∫∫∫∫∫∫)
+    if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) { //Si el caracter es menor o igual a 64 y mayor o igual a 91, o es menor o igual a 97 y mayor o igual a 122)
         return 1; // El caracter es una letra mayuscula o minuscula
     } else {
         return 0; // El caracter no es una letra mayuscula o minuscula
