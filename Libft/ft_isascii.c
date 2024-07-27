@@ -17,10 +17,10 @@
 #include <stdio.h>
 
 //Desarrollo de la funcion
-int ft_isdigit(int c) {//la funcion va a operar con enteros, y se define que la variable c es entero
-    if (c >= 48 && c <= 59) { //Si el caracter es mayor o igual a 0 y menor o igual a 9
-        return 1; // El caracter es un numero
+int ft_isascii(int c) {//la funcion va a operar con enteros, y se define que la variable c es entero
+    if (c >= 32 && c <= 126) { //Si el caracter esta en el rango de los caracteres ascii imprimibles
+        return 1; // El caracter es ascii imprimible
     } else { // Y si no
-        return 0; // El caracter no es un numero
+        return 0; // El caracter no es ascii imprimible
     }
 }

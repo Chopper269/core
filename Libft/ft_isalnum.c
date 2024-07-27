@@ -18,7 +18,7 @@
 
 //Desarrollo de la funcion
 int ft_isalnum(int c) {//la funcion va a operar con enteros, y se define que la variable c es entero
-    if (c >= 48 && c <= 57{ //Si el caracter es mayor o igual a 0 y menor o igual a 9
+    if (c >= 48 && c <= 57 || (c >= 65 && c <= 90) || (c >= 97 && c <= 122)) { //Si el caracter es numerico o minusculas, o mayusculas, en la tabla ascii
         return 1; // El caracter es un numero
     } else { // Y si no
         return 0; // El caracter no es un numero
