@@ -27,8 +27,8 @@ int ft_isalnum(int c) {//la funcion va a operar con enteros, y se define que la 
 
 
 //Desarrollo del main
-int main() //declaracion de main. Es un entero porque retorna un 0 al final, y es void porque no tiene argumentos de entrada
-{
+int main() {//declaracion de main. Es un entero porque retorna un 0 al final, y es void porque no tiene argumentos de entrada
+
 
     //Declaracion de variables
     char entrada; //define que la variable entrada es un char
@@ -36,7 +36,7 @@ int main() //declaracion de main. Es un entero porque retorna un 0 al final, y e
     int resultado2; //define que la variable resultado es un int
 
     //Asignacion de valores a variables
-    entrada = 'G'; //asigna un valor de entrada
+    entrada = 's'; //asigna un valor de entrada
     resultado = ft_isalnum (entrada); //asigna un valor a resultado ejecutando ft_isalpha con la variable de entrada
     resultado2 = isalnum (entrada); //asigna un valor a resultado2 ejecutando isalpha con la variable de entrada
 
