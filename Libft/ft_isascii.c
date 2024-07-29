@@ -18,7 +18,7 @@
 
 //Desarrollo de la funcion
 int ft_isascii(int c) {//la funcion va a operar con enteros, y se define que la variable c es entero
-    if (c >= 00 && c <= 126) { //Si el caracter esta en el rango de los caracteres ascii
+    if (c >= 0 && c <= 127) { //Si el caracter esta en el rango de los caracteres ascii
         return 1; // El caracter es ascii
     } else { // Y si no
         return 0; // El caracter no es ascii
