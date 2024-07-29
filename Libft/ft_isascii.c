@@ -37,7 +37,7 @@ int main() //declaracion de main. Es un entero porque retorna un 0 al final, y e
 
     //Asignacion de valores a variables
     entrada = 'h'; //asigna un valor de entrada
-    resultado = ft_ascii (entrada); //asigna un valor a resultado ejecutando ft_isascii con la variable de entrada
+    resultado = ft_isascii (entrada); //asigna un valor a resultado ejecutando ft_isascii con la variable de entrada
     resultado2 = isascii (entrada); //asigna un valor a resultado2 ejecutando isascii con la variable de entrada
 
     //Ejecucion del programa
