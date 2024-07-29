@@ -21,6 +21,6 @@ int ft_isdigit(int c) {//la funcion va a operar con enteros, y se define que la 
     if (c >= 48 && c <= 59) { //Si el caracter es mayor o igual a 0 y menor o igual a 9
         return 1; // El caracter es un numero
     } else { // Y si no
-        return 0; // El caracter no es un numero xddd
+        return 0; // El caracter no es un numero
     }
 }
