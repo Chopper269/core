@@ -36,7 +36,7 @@ int main() {//declaracion de main. Es un entero porque retorna un 0 al final, y 
     int resultado2; //define que la variable resultado es un int
 
     //Asignacion de valores a variables
-    entrada = 't'; //asigna un valor de entrada
+    entrada = '5'; //asigna un valor de entrada
     resultado = ft_isalnum (entrada); //asigna un valor a resultado ejecutando ft_isalpha con la variable de entrada
     resultado2 = isalnum (entrada); //asigna un valor a resultado2 ejecutando isalpha con la variable de entrada
 
