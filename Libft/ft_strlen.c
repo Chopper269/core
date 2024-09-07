@@ -10,7 +10,7 @@ int ft_strlen(const char *str)      //La funcion va a devolver un valor de tipo 
 
     while (str[longitud] != '\0')   //cuando (while) srt (el valor que recibe la funcion) es diferente a 0, entra en el bucle (o sigue en el)
     
-        longitud++;                 //este bucle solo hara que el tamaño de la variable logitud aumente +1 su valor hasta encontrar un caracter nulo
+        longitud++;                 //este bucle solo hara que el tamanio de la variable logitud aumente +1 su valor hasta encontrar un caracter nulo
   
     return (longitud);              //devuelve el valor de longitud
 
@@ -18,11 +18,11 @@ int ft_strlen(const char *str)      //La funcion va a devolver un valor de tipo 
 
 
 int main()
-
+ 
 {
-    char ejemplo[] = "hijo de mil putas";    //main de prueba, declara una variable ejemplo con la palabra a contar
+    char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo con la palabra a contar
 
-    printf ("%d \n", ft_strlen(ejemplo));    //imprime por pantalla la funcion ftstrlen con el valor ejemplo
+    printf ("%d \n", ft_strlen(ejemplo));                       //imprime por pantalla la funcion ftstrlen con el valor ejemplo
 
-    return(0);                      //finaliza el programa
+    return(0);                                                  //finaliza el programa
 }
