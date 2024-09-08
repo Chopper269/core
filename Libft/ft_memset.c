@@ -17,3 +17,15 @@ void    *ft_memset(void *a, int b, size_t c){   // a es la variable puntero al b
 
     return (a); // devolvemos el valor del puntero original
 }
+
+int main()
+ 
+{
+    char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo con la palabra a contar
+
+    ft_memset(ejemplo, 'z', 5);
+
+    printf ("%d \n", ejemplo);  //imprime por pantalla la funcion ftstrlen con el valor ejemplo
+
+    return(0);  //finaliza el programa
+}
