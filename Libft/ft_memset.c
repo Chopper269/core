@@ -21,9 +21,9 @@ void    *ft_memset(void *a, int b, size_t c){   // a es la variable puntero al b
 int main()
  
 {
-    char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo con la palabra a contar
+    char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo
 
-    ft_memset(ejemplo, 'z', 5);
+    ft_memset(ejemplo, 'z', 5); //ejecutamos la funcion, el primer argumento es la variable de ejemplo, el segundo argumento lo que vamos a grabar y el tercero 
 
     printf ("%d \n", ejemplo);  //imprime por pantalla la funcion ftstrlen con el valor ejemplo
 
