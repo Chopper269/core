@@ -21,9 +21,11 @@ int main()
 {
     char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo
     
-    ft_bzero(ejemplo, 5); //ejecutamos la funcion, el primer argumento es la variable de ejemplo, el segundo los bytes que pondremos a 0
+    size_t c = 12;
 
-    printf ("%s \n", ejemplo);  //imprime por pantalla la el caracter ejemplo.
+    ft_bzero(ejemplo, c); //ejecutamos la funcion, el primer argumento es la variable de ejemplo, el segundo los bytes que pondremos a 0
+
+    printf ("%s\n", ejemplo + c);  //imprime por pantalla la el caracter ejemplo, excepto los nulos, empezando por el primero imprimible
     
     return(0);  //finaliza el programa
 }
