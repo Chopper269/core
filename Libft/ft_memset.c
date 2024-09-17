@@ -22,9 +22,7 @@ int main()
  
 {
     char ejemplo[] = "pake kiere saver eso jaja salu2 xdxd";    //main de prueba, declara una variable ejemplo
-
-    printf ("%s \n", ejemplo);  //imprime por pantalla el caracter ejemplo antes del memset
-
+    
     ft_memset(ejemplo, 'z', 5); //ejecutamos la funcion, el primer argumento es la variable de ejemplo, el segundo argumento lo que vamos a grabar y el tercero 
 
     printf ("%s \n", ejemplo);  //imprime por pantalla el caracter ejemplo.
