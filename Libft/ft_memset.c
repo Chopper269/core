@@ -25,7 +25,7 @@ int main()
     
     ft_memset(ejemplo, 'z', 5); //ejecutamos la funcion, el primer argumento es la variable de ejemplo, el segundo argumento lo que vamos a grabar y el tercero 
 
-    printf ("%s \n", ejemplo);  //imprime por pantalla la el caracter ejemplo.
+    printf ("%s \n", ejemplo);  //imprime por pantalla la el caracter ejemplo...
     
     return(0);  //finaliza el programa
 }
