@@ -14,3 +14,4 @@ for (size_t i = 0; i < tam; i++) { // inicializa un bucle donde mientras i sea m
     return dest;  // Devuelve el puntero al destino
 }
 
+//aqui abajo va el main que hare mañana.
