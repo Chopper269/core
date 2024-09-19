@@ -28,7 +28,7 @@
             printf("variable de origen antes de copia: %s\n", origen1); 
             printf("variable de destino antes de copia: %s\n", destino1);
             
-            ft_memcpy(destino1, origen1, strlen(origen1) + 1);
+            ft_memcpy(destino1, origen1, strlen(origen1) + 1); //(ojo, el +1 es para copiar el caracter nulo de fin de la cadena)
 
             printf("variable de origen despues de copia: %s\n", origen1);
             printf("variable de destino despues de copia: %s\n", destino1);
