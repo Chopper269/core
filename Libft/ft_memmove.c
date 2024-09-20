@@ -21,7 +21,7 @@ void *ft_memmove(void *dest, const void *ori, size_t tam){   // Definimos las va
 
 
         char origen1[] = "pa ke kiere save eso jajasalu2xdxd";
-        char destino1[40];
+        char destino1[60];
 
 
         printf("variable de origen antes de copia: %s\n", origen1); 
