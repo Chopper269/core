@@ -33,7 +33,7 @@ size_t ft_strlcpy(char *dest, const char *ori, size_t tam) {
 
 int main() {
     char ori[] = "pakekieresaveresojajasalu2xdxd";
-    char dest[6]; // Tamaño del destino es 6 (5 caracteres + '\0')
+    char dest[16]; // Tamaño del destino es 6 (5 caracteres + '\0')
 
     size_t tam = ft_strlcpy(dest, ori, sizeof(dest));
 
