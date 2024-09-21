@@ -20,13 +20,13 @@ size_t strlcat(char *dest, const char *ori, size_t tam) {
 
 
 int main() {
-    char dest[20] = "Hola, ";
-    char ori[] = "Mundo!";
+    char dest[40] = "pakekieresaveeso";
+    char ori[] = "jajasalu2xdxd";
     
-    size_t result = strlcat(dest, ori, sizeof(dest));
+    size_t longitud = strlcat(dest, ori, sizeof(dest)); //declaramos la variable longitud para que nos de la suma de tamaños ori+dest, y ejecutamos la funcion
     
-    printf("Resultado: %s\n", dest);
-    printf("Longitud total: %zu\n", result);
+    printf("concatenacion: %s\n", dest); //nos muestra la concatenacion de ori y dest
+    printf("Longitud total: %zu\n", longitud); //nos da la longitud total de ori y dest
     
     return 0;
 }
