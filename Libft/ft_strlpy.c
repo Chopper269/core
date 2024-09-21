@@ -29,3 +29,16 @@ size_t ft_strlcpy(char *dest, const char *ori, size_t tam) {
 
     return longitud; //devolvemos el tamaño de la variable de origen
 }
+
+
+int main() {
+    char ori[] = "pakekieresaveresojajasalu2xdxd";
+    char dest[6]; // Tamaño del destino es 6 (5 caracteres + '\0')
+
+    size_t tam = ft_strlcpy(dest, ori, sizeof(dest));
+
+    printf("Cadena destino: %s\n", dest);
+    printf("Longitud de la cadena origen: %zu\n", tam); //z indica que se imprime size t, y u que es unsigned
+
+    return 0;
+}
