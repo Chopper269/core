@@ -14,9 +14,15 @@ size_t strlcat(char *dest, const char *ori, size_t tam) {
         copiar = ori_tam; // reasignamos el valor para que copie los mismos char que hay en ori
     }
 
-    strncat(dest, ori, copiar); //esta funcion realiza la concatenacion de ori a dest, del numero de caracteres que diga copiar
+    for (size_t i = 0; i < copiar; i++) { // El bucle se ejecuta siempre que i sea inferior al tamaño que queremos copiar
+        dest[dest_tam + i] = ori[i]; //Copia el caracter de origen en destino teniendo en cuenta el tamaño de la cadena destino
+    }
+
+    dest[i] = '\0'; //Al acabar el bucle, con el origen copiado total o parcialmente, escribimos el nulo al final
+
     return dest_tam + ori_tam; //devuelve el tamaño de el origen y el destino
 }
+
 
 
 int main() {
